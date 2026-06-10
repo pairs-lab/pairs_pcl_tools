@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>pairs_pcl_tools</name>
+  <version>1.0.0</version>
+  <description>Pointcloud tools package</description>
+
+  <maintainer email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</maintainer>
+  <author email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</author>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>cmake_modules</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>eigen_conversions</depend>
+  <depend>geometry_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+  <depend>pairs_lib</depend>
+  <depend>pairs_msgs</depend>
+  <depend>pairs_modules_msgs</depend>
+  <depend>nodelet</depend>
+  <depend>ouster_ros</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_ros</depend>
+  <depend>rosconsole</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>visualization_msgs</depend>
+
+  <export>
+    <nodelet plugin="${prefix}/nodelets.xml" />
+  </export>
+
+</package>
